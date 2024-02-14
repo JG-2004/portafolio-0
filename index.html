@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"
+    >
+    <script src="https://kit.fontawesome.com/ac787c6fb3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <img src="/img/logo.png" alt="" class="col-lg-2">
+
+                <div class="col-lg-6 offset-lg-4">
+                    <nav>
+                        <ul>
+                            <li>                      
+                                <a 
+                                href="#"
+                                >
+                                <i class="fa-solid fa-house"></i>                            
+                                    INICIO
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a 
+                                href="#"
+                                target="_blank"
+                                > 
+                                    HABILIDADES 
+                                </a>
+                            </li>
+
+                            <li>
+                                <a 
+                                href="#"
+                                target="_blank"
+                                > 
+                                    CONTÁCTAME 
+                                </a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="/img/img-header.png" alt="" class="col-lg-6" id="img-header">
+
+                <div class="col-lg-6 nombre">
+                    <h1>Jaret</h1>
+                    <strong>Ynoñan Lozano</strong>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container-fluid">
+        <div class="container text-center">
+            <section class="row">
+                <h2> ¿Quién soy?</h2>
+
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Eos, earum harum temporibus, recusandae natus culpa praesentium doloremque, 
+                    sequi accusamus quisquam pariatur dicta quas minima? Qui repellendus 
+                    ratione autem. Quia, facere.
+                </p>
+            </section>
+
+            <section class="row">
+                <h2>HABILIDADES</h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Facere enim dolor labore, obcaecati mollitia minus sed, 
+                    ullam cum eius dolore aspernatur id quidem impedit amet iure quasi ad, vitae quos.
+                </p>
+
+                <div class="text-center">
+                    <img src="/img/html-logo.png" alt="" class="col-lg-2">
+                    <img src="/img/css-logo.png" alt="" class="col-lg-2">
+                    <img src="/img/boostrap-logo.png" alt="" class="col-lg-2">
+                    <img src="/img/soporte TI.jpg" alt="" class="col-lg-2">
+                </div>
+                
+            </section>
+
+            <div class="row seccion-contacto">
+                <h4>DEJE SUS DATOS PARA CONTACTARLO</h4>
+                
+                <div class="formulario col-lg-6 offset-lg-3">
+                    <form method="post" class="col-10 offset-1 col-lg-10 offset-lg-1" action="https://formsubmit.co/jaretynonan@gmail.com" method="POST">
+                        <label for="name">Nombre y Apellidos: </label><br>
+                        <input type="text" id="name" value="" placeholder="Ingresa aquí tu nombre y apellido" autofocus="autofocus" required/><br>
+    
+                        <label for="numero"> Teléfono: </label><br>
+                        <input type="tel" id="numero" name="numero" value=""  placeholder="Escriba su teléfono" required/><br>
+    
+                        <label for="email"> Correo Eletronico :</label><br>
+                        <input type="email" id="email" name="email" value="" placeholder="Escribe tu email por ejemplo: tito@gmail.com" required/><br>
+    
+                        <label for="subject"> Elija una opción: </label><br>
+                        <select id="subject" size="">
+                            <option value="">Formateo de Pc o Laptop</option>
+                            <option value="">Mantenimiento a Pc o Laptop</option>
+                            <option value="">Instalación de algún Programa</option>
+                            <option value="">Asesoramiento en la compra de un Pc o Laptop</option>
+                            <option value="">Creación de un Página Web</option>
+                        </select><br>
+    
+                        <label for="message">Mensaje: </label><br>
+                        <textarea name="Message" placeholder="Escriba su argumento aqui." rows="4"></textarea><br>
+                        
+                        <input type="submit" value="Enviar" id="submit" class="boton"/>
+                    </form>    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <section class="col-lg-6">
+                <h2>
+                    "Jaret Ynoñan Lozano"
+                </h2>
+                <section class="row col-lg-6">
+                    <h4>
+                        CONTÁCTAME
+                    </h4>
+                    <div class="contacto">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-phone"></i>
+                                </a>
+                            </li>
+        
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                            </li>
+        
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+        
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>      
+                    </div>
+                </section>
+            </section>
+        </div>
+    </div>
+</footer>
+</html>
